@@ -18,7 +18,7 @@ public class FindMovie implements MovieSearching {
 		BufferedReader br2 = null;
 		FileReader fr2 = null;
 		try {
-			fr2 = new FileReader("D:\\Eclipse-Work\\Final_Assignment\\src\\OOP\\credits.csv");
+			fr2 = new FileReader("C:\\Users\\User\\git\\Movie-Browser\\Movie Browser Project\\src\\OOP\\credits.csv");
 			br2 = new BufferedReader(fr2);
 			String line;
 			//char[] targetArr = movieId.toCharArray();
@@ -67,7 +67,7 @@ public class FindMovie implements MovieSearching {
 		BufferedReader br = null;
 		FileReader fr = null;
 		try {
-			fr = new FileReader("D:\\Eclipse-Work\\Final_Assignment\\src\\OOP\\titles_updated.csv");
+			fr = new FileReader("C:\\Users\\User\\git\\Movie-Browser\\Movie Browser Project\\src\\OOP\\titles_updated.csv");
 			String currentLine;
 			br = new BufferedReader(fr);
 			while((currentLine = br.readLine()) != null && !firstInstance) {
