@@ -6,4 +6,4 @@ https://www.kaggle.com/datasets/victorsoeiro/netflix-tv-shows-and-movies
 
 ### Usage
 Below is an example of the application running and returning a movie with it's detail after the full title is entered.
-![Demonstration Image](\Usage_Visual.png)
+![Demonstration Image](/Usage_Visual.png)
